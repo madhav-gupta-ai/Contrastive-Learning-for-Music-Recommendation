@@ -36,7 +36,7 @@ python -m src.contrastive
 python -m src.svd
 ```
 
-## Getting recommendations
+## Usage
 
 ```
 python -m src.recommend --songs "Coldplay - Fix You" "Adele - Someone Like You"
@@ -71,6 +71,6 @@ python -m src.recommend --playlist-file my_playlist.txt
 
 ## License
 
-The code is released under the [MIT License](LICENSE). The Spotify Playlists
+The code is released under the [MIT License](LICENSE) © 2024 Madhav Gupta. The Spotify Playlists
 dataset and the Spotify audio features remain the property of their
 respective owners.
