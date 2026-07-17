@@ -1,0 +1,10 @@
+# Large / regenerable data (see data/README.md)
+data/spotify_dataset.csv
+data/full_dataset.csv
+data/filtered_dataset.csv
+data/triplets.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
