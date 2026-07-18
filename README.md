@@ -8,9 +8,7 @@ Code for the paper:
 > India, Feb 2025, pp. 1–5.
 > DOI: [10.1109/ICE63309.2025.10984218](https://doi.org/10.1109/ICE63309.2025.10984218)
 
-A music recommender trained on ~13,000 real Spotify playlists. A neural
-encoder learns — via triplet loss on playlist co-occurrence — to map a song's
-8 Spotify audio features into an embedding space where songs that listeners
+A music recommender trained on ~13,000 real Spotify playlists. A neural encoder is trained with triplet loss on playlist co-occurrence to map a song's 8 Spotify audio features into an embedding space where songs that listeners
 enjoy together sit close, blending content and collaborative signals in a
 single model. Since any song with audio features can be embedded, the model
 also recommends across languages: the included demo suggests Hindi songs for
@@ -66,11 +64,11 @@ python -m src.recommend --playlist-file my_playlist.txt
 
 ## Notebooks
 
-- [training.ipynb](notebooks/training.ipynb) — training curve and example recommendations
-- [global_recommendations_demo.ipynb](notebooks/global_recommendations_demo.ipynb) — Hindi songs for an English playlist
+- [training.ipynb](notebooks/training.ipynb): training curve and example recommendations
+- [global_recommendations_demo.ipynb](notebooks/global_recommendations_demo.ipynb): Hindi songs for an English playlist
 
 ## License
 
-The code is released under the [MIT License](LICENSE) © 2024 Madhav Gupta. The Spotify Playlists
+The code is released under the [MIT License](LICENSE), © 2024 Madhav Gupta. The Spotify Playlists
 dataset and the Spotify audio features remain the property of their
 respective owners.
